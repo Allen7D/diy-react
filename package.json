@@ -1,8 +1,8 @@
 {
-  "name": "mini-react",
+  "name": "diy-react",
   "version": "1.0.0",
-  "main": "lib/mini-react.cjs.js",
-  "module": "lib/mini-react.esm.js",
+  "main": "lib/diy-react.cjs.js",
+  "module": "lib/diy-react.esm.js",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c rollup.config.js",

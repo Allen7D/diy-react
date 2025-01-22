@@ -26,7 +26,7 @@ module.exports = {
   },
   resolve: {
     alias: {
-      react: resolve("../lib/mini-react.esm"), // 将 lib/mini-react.esm.js 映射为 react
+      react: resolve("../lib/diy-react.esm"), // 将 lib/diy-react.esm.js 映射为 react
     },
     extensions: [".tsx", ".ts", ".jsx", ".js"],
   },
@@ -41,7 +41,7 @@ module.exports = {
       template: "./example/index.html",
       filename: "index.html",
       inject: true,
-      title: "mini-react",
+      title: "diy-react",
     }),
     new webpackPromptPlugin(),
   ],

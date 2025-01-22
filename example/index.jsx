@@ -1,4 +1,4 @@
-import React, { useState } from "react"; // 将mini-react 作为 React 来时用
+import React, { useState } from "react"; // 将 diy-react 作为 React 来时用
 
 // 函数组件
 function Counter(props) {
